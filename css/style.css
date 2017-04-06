@@ -105,7 +105,7 @@ section {
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #6bb97f; }
+  background-color: #59a56c; }
   #info-bar a {
     color: #fefeff;
     font-size: 14px;
@@ -136,7 +136,7 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #6bb97f;
+  background-color: #59a56c;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   -ms-transition: height 0.3s;
