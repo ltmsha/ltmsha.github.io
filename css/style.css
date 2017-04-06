@@ -104,7 +104,7 @@ section {
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #59a56c; }
+  background-color: #c45048; }
   #info-bar a {
     color: #fefeff;
     font-size: 14px;
@@ -113,7 +113,7 @@ section {
     margin: 0;
     padding: 10px; }
     #info-bar a:hover {
-      background-color: #40764d; }
+      background-color: #993d38; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
