@@ -55,8 +55,8 @@ a img {
   box-sizing: border-box; }
 
 body {
-  background-color: #3cb5f9;
-  color: #505050;
+  background-color: #fefeff;
+  color: #383d41;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #3cb5f9; }
+  color: #94cca3; }
 
 a:hover {
-  color: #0793e2; }
+  color: #6bb97f; }
 
 /* =Template
 -------------------------------------------------------------- */
@@ -99,22 +99,22 @@ section {
     section p:last-child {
       margin-bottom: 0; }
   section.color {
-    background-color: #55aa55;
-    color: white; }
+    background-color: #d2cfcb;
+    color: #383d41; }
 
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #55aa55; }
+  background-color: #6bb97f; }
   #info-bar a {
-    color: white;
+    color: #fefeff;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
     margin: 0;
     padding: 10px; }
     #info-bar a:hover {
-      background-color: #116611; }
+      background-color: #bf3f36; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
@@ -136,7 +136,7 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #116611;
+  background-color: #6bb97f;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   -ms-transition: height 0.3s;
@@ -149,7 +149,7 @@ header {
     float: left;
     font-family: "Oswald", sans-serif;
     font-size: 60px;
-    color: white;
+    color: #fefeff;
     font-weight: 400;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -162,7 +162,7 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: #55aa55;
+      color: #94cca3;
       font-weight: 700;
       font-size: 18px;
       -webkit-transition: all 0.3s;
@@ -171,7 +171,7 @@ header {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       header nav a:hover {
-        color: white; }
+        color: #fefeff; }
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
