@@ -56,7 +56,7 @@ a img {
 
 body {
   background-color: #fefeff;
-  color: #383d41;
+  color: #5c6063;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -81,7 +81,7 @@ a:hover {
   margin: 0 auto; }
 
 #main {
-  background-color: #fff;
+  background-color: #fefeff;
   padding-top: 150px; }
 
 .container {
@@ -99,8 +99,7 @@ section {
     section p:last-child {
       margin-bottom: 0; }
   section.color {
-    background-color: #f7f7f6;
-    color: #383d41; }
+    background-color: #f7f7f6; }
 
 /* =Info Bar
 -------------------------------------------------------------- */
@@ -114,7 +113,7 @@ section {
     margin: 0;
     padding: 10px; }
     #info-bar a:hover {
-      background-color: #bf3f36; }
+      background-color: #40764d; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
