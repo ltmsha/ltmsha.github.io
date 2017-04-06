@@ -136,8 +136,6 @@ header {
   left: 0;
   z-index: 999;
   background-color: #37cc5c;
-  background-image: url(/images/ban.png);
-background-repeat: no-repeat;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   -ms-transition: height 0.3s;
