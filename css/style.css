@@ -98,7 +98,10 @@ section {
     margin-bottom: 30px; }
     section p:last-child {
       margin-bottom: 0; }
-  section.color {
+
+section:nth-of-type(1n) {
+  background-color: #fefeff;}
+section:nth-of-type(2n) {
     background-color: #f7f7f6; }
 
 /* =Info Bar
