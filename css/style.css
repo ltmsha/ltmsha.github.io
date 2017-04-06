@@ -99,13 +99,13 @@ section {
     section p:last-child {
       margin-bottom: 0; }
   section.color {
-    background-color: #3cb5f9;
+    background-color: #55aa55;
     color: white; }
 
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #3cb5f9; }
+  background-color: #55aa55; }
   #info-bar a {
     color: white;
     font-size: 14px;
@@ -114,7 +114,7 @@ section {
     margin: 0;
     padding: 10px; }
     #info-bar a:hover {
-      background-color: #0793e2; }
+      background-color: #116611; }
   #info-bar span.all-tutorials,
   #info-bar span.back-to-tutorial {
     display: block;
