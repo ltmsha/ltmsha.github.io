@@ -238,8 +238,8 @@ header.smaller {
   header img#logo {
     display: block;
     float: none;
-    margin: 0 auto;
-    height: 100px;
+    margin: 5px auto;
+    height: 150px;
     line-height: 100px; }
   header nav {
     display: block;
