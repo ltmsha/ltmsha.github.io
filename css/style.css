@@ -121,7 +121,7 @@ section:nth-of-type(2n) {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
     #info-bar a:hover {
-      background-color: #299943; }
+      background-color: #16c143; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
@@ -172,7 +172,7 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: #7ae896;
+      color: #5ada7b;
       font-weight: 700;
       font-size: 18px;
       -webkit-transition: all 0.3s;
