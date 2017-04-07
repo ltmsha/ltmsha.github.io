@@ -70,7 +70,7 @@ a {
   color: #4c4f52; }
 
 a:hover {
-  color: #676b6e; }
+  color: #6b6f74; }
 
 /* =Template
 -------------------------------------------------------------- */
@@ -119,7 +119,7 @@ section:nth-of-type(2n) {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
     #info-bar a:hover {
-      background-color: #029c2b; }
+      background-color: #23893d; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
