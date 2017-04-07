@@ -238,7 +238,7 @@ header.smaller {
   header img#logo {
     display: block;
     float: none;
-    margin-top: 5px;
+    margin: 0 auto;
     height: 150px;
     line-height: 100px; }
   header nav {
@@ -258,6 +258,7 @@ header.smaller {
       line-height: 40px;
       font-size: 30px; }
     header.smaller img#logo {
+      margin-top: 5px;
       height: 40px;
       line-height: 40px; }
     header.smaller nav {
