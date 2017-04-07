@@ -161,8 +161,12 @@ header {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
  header h1#logo a {
-    text-decoration: none;
-    color: #ffffff; }
+    color: #ffffff; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
  header h1#logo a:hover {
     color: #6bb97f; }
 
