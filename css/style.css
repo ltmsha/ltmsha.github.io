@@ -163,6 +163,8 @@ header {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
+header p#logo {
+    margin-bottom: 0px; }
 
   header nav {
     display: inline-block;
