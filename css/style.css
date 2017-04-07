@@ -205,6 +205,7 @@ header.smaller {
       line-height: 75px;
       font-size: 30px; }
     header.smaller img#logo {
+      margin-top: 5px;
       height: 75px;
       line-height: 75px; }
     header.smaller nav a {
@@ -258,7 +259,6 @@ header.smaller {
       line-height: 40px;
       font-size: 30px; }
     header.smaller img#logo {
-      margin-top: 5px;
       height: 50px;
       line-height: 40px; }
     header.smaller nav {
