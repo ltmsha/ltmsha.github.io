@@ -173,7 +173,7 @@ header {
     height: 100px;
     line-height: 150px;
     float: left;
-    margin-top: 30px;
+    margin-top: 25px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -238,7 +238,7 @@ header.smaller {
   header img#logo {
     display: block;
     float: none;
-    margin: 5px auto;
+    margin-top: 5px;
     height: 150px;
     line-height: 100px; }
   header nav {
