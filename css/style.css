@@ -166,11 +166,13 @@ box-shadow: 0px -10px 4px 11px rgba(0,0,0,0.49); }
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
+  
   header img#logo {
     display: inline-block;
     height: 100px;
     line-height: 150px;
     float: left;
+    margin-top: 10px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
