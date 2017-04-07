@@ -114,7 +114,12 @@ section:nth-of-type(2n) {
     text-transform: uppercase;
     display: inline-block;
     margin: 0;
-    padding: 10px; }
+    padding: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
     #info-bar a:hover {
       background-color: #299943; }
   #info-bar span.haut,
