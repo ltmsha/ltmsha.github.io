@@ -72,7 +72,7 @@ a {
   color: #4c4f52; }
 
 a:hover {
-  color: #616468; }
+  color: #676b6e; }
 
 /* =Template
 -------------------------------------------------------------- */
@@ -121,7 +121,7 @@ section:nth-of-type(2n) {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
     #info-bar a:hover {
-      background-color: #16c143; }
+      background-color: #029c2b; }
   #info-bar span.haut,
   #info-bar span.precedent {
     display: block;
@@ -172,7 +172,7 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: #5ada7b;
+      color: #88e9a2;
       font-weight: 700;
       font-size: 18px;
       -webkit-transition: all 0.3s;
