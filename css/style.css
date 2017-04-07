@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #94cca3; }
+  color: #4c4f52; }
 
 a:hover {
-  color: #6bb97f; }
+  color: #616468; }
 
 /* =Template
 -------------------------------------------------------------- */
@@ -160,15 +160,6 @@ header {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
- header h1#logo a {
-    color: #4c4f52; 
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s; }
- header h1#logo a:hover {
-    color: #f7f7f6; }
 
   header nav {
     display: inline-block;
