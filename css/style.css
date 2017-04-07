@@ -239,7 +239,7 @@ header.smaller {
     display: block;
     float: none;
     margin: 0 auto;
-    height: 150px;
+    height: 100px;
     line-height: 100px; }
   header nav {
     display: block;
@@ -259,7 +259,7 @@ header.smaller {
       font-size: 30px; }
     header.smaller img#logo {
       margin-top: 5px;
-      height: 40px;
+      height: 50px;
       line-height: 40px; }
     header.smaller nav {
       height: 35px; }
