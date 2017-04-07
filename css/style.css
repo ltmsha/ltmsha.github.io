@@ -149,9 +149,9 @@ header {
   -ms-transition: height 0.3s;
   -o-transition: height 0.3s;
   transition: height 0.3s;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;}
+-webkit-box-shadow: 0px -10px 4px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -10px 4px 11px rgba(0,0,0,0.75);
+  box-shadow: 0px -10px 4px 11px rgba(0,0,0,0.75); }
   header h1#logo {
     display: inline-block;
     height: 150px;
