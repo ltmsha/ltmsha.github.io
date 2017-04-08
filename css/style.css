@@ -93,7 +93,8 @@ table-1 {
   border-spacing: 10px;}
 
 td.middle {
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding: 10px; }
 
 section {
   padding: 60px 0; }
