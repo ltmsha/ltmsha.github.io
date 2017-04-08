@@ -99,11 +99,15 @@ section {
       margin-bottom: 0; }
 
 section:nth-of-type(1n) {
-  background-color: #fefefe; }
+  background-color: #fefefe; 
+  padding-left: 100px; }
+
 section:nth-of-type(2n+2) {
-    background-color: #f7f7f7; }
+    background-color: #f7f7f7;
+    padding-left: 0; }
 section:nth-of-type(2n+3) {
-    background-color: #fefefe; }
+    background-color: #fefefe;
+    padding-left: 0; }
 
 /* =Info Bar
 -------------------------------------------------------------- */
