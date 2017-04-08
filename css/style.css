@@ -88,6 +88,10 @@ a:hover {
   margin: 0 auto;
   padding: 0 30px; }
 
+table-1 {
+  border-collapse: separate;
+  border-spacing: 2px;}
+
 section {
   padding: 60px 0; }
   section h1 {
