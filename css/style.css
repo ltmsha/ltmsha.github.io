@@ -100,13 +100,10 @@ section {
 
 section:nth-of-type(1n) {
   background-color: #fefefe; }
-  <img src="/images/tab_resultats.png">
 section:nth-of-type(2n+2) {
-    background-color: #f7f7f7;
-    padding-left: 0; }
+    background-color: #f7f7f7; }
 section:nth-of-type(2n+3) {
-    background-color: #fefefe;
-    padding-left: 0; }
+    background-color: #fefefe; }
 
 /* =Info Bar
 -------------------------------------------------------------- */
