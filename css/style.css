@@ -92,8 +92,8 @@ table-1 {
   border-collapse: separate;
   border-spacing: 10px;}
 
-td.middle {
-  vertical-align: middle;
+td.haut {
+  vertical-align: top;
   padding: 10px; }
 
 section {
