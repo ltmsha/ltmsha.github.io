@@ -99,8 +99,8 @@ section {
       margin-bottom: 0; }
 
 section:nth-of-type(1n) {
-  background-color: #fefefe;}
-section:nth-of-type(2n) {
+  background-color: #ff5500;}
+section:nth-of-type(2n+2) {
     background-color: #f7f7f7; }
 
 /* =Info Bar
