@@ -99,7 +99,8 @@ section {
       margin-bottom: 0; }
 
 section:nth-of-type(1n) {
-  background-color: #ffff00;}
+  background-color: #ffff00;
+  padding: 100px 0; }
 section:nth-of-type(2n+2) {
     background-color: #f7f7f7; }
 section:nth-of-type(2n+3) {
