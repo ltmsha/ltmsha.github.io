@@ -230,14 +230,13 @@ header.smaller {
 
 /* =Haut/bas
 -------------------------------------------------------------- */
-haut-bas {
-    position:fixed; }
-    haut-bas img#bas {
-    margin-top: 300px; }
-    haut-bas img#haut {
-      margin-bottom: 30px; }
+bas {
+  position: fixed;
+  margin-top: 300px; }
 
-
+haut {
+  position: fixed;
+  margin-bottom: 30px; }
 
 /* =Footer
 -------------------------------------------------------------- */
