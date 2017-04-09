@@ -119,14 +119,15 @@ section:nth-of-type(2n+3) {
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #37cc5c;
-  color: #fefefe;
-  font-size: 14px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0;
-  padding: 10px; }
+  background-color: #37cc5c; }
+  #info-bar p,
   #info-bar a {
+    color: #fefefe;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    padding: 10px; 
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
