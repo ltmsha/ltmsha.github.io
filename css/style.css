@@ -228,6 +228,11 @@ header.smaller {
     header.smaller nav a {
       line-height: 75px; }
 
+/* =Haut/bas
+-------------------------------------------------------------- */
+.fixed{
+    position:fixed;
+}
 
 
 
