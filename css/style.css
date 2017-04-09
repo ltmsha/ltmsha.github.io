@@ -235,12 +235,12 @@ haut-bas {
   float: left;
   margin-top: 200px; }
 haut-bas img {
-  opacity: 1;
+  opacity: 0.2;
   transition: opacity .3s ease-in-out;
   -moz-transition: opacity .3s ease-in-out;
   -webkit-transition: opacity .3s ease-in-out; }
 haut-bas img:hover {
-  opacity: 0.2;
+  opacity: 1;
   transition: opacity .3s ease-in-out;
   -moz-transition: opacity .3s ease-in-out;
   -webkit-transition: opacity .3s ease-in-out; }
