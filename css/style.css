@@ -235,8 +235,7 @@ haut-bas {
     haut-bas img#bas {
     margin-top: 300px; }
     haut-bas img#haut {
-      left: 30px;
-      bottom: 30px; }
+      margin-bottom: 30px; }
 
 
 
