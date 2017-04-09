@@ -225,7 +225,15 @@ header nav li {
     list-style: none; }
 
 header nav ul li a {
-    display: block; }
+    display: block;
+      color: #88e9a2;
+      font-weight: 700;
+      font-size: 18px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
 
 header nav ul ul {
     display:none;
