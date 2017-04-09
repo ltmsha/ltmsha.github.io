@@ -231,7 +231,9 @@ header.smaller {
 /* =Haut/bas
 -------------------------------------------------------------- */
 bas-haut {
-  position: fixed; }
+  position: fixed;
+  float: left;
+  margin-top: 200px; }
 
 
 /* =Footer
