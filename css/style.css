@@ -134,14 +134,14 @@ section:nth-of-type(2n+3) {
     transition: all 0.3s; }
     #info-bar a:hover {
       background-color: #23893d; }
-  #info-bar span.haut,
-  #info-bar span.precedent {
+  #info-bar span.left,
+  #info-bar span.right {
     display: block;
     width: 50%; }
-  #info-bar span.haut {
+  #info-bar span.left {
     float: left;
     text-align: left; }
-  #info-bar span.precedent {
+  #info-bar span.right {
     float: right;
     text-align: right; }
 
