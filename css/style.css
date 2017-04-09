@@ -230,13 +230,13 @@ header.smaller {
 
 /* =Haut/bas
 -------------------------------------------------------------- */
-#haut-bas {
+haut-bas {
   position:fixed;
   z-index: -1; }
-    #haut-bas span.bas {
+    haut-bas img#bas {
       left: 30px;
       top: 30px; }
-    #haut-bas span.haut {
+    haut-bas img#haut {
       left: 30px;
       bottom: 30px; }
 
