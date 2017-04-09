@@ -86,7 +86,8 @@ a:hover {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 0 30px; }
+  padding: 0 30px;
+  z-index: 2; }
 
 table-1 {
   border-collapse: separate;
