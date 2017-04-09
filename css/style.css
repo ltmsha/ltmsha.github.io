@@ -235,15 +235,15 @@ haut-bas {
   float: left;
   margin-top: 200px; }
 haut-bas img {
-  opacity:0.4; /* how much transparent you want image to be*/
-  filter:alpha(opacity=40); /* browser fix*/
-  -webkit-opacity:0.4; /*vendor prefixes for website browsers*/
-  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */}
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out; }
 haut-bas img:hover {
-  opacity:1; /* how much transparent you want image to be*/
-  filter:alpha(opacity=40); /* browser fix*/
-  -webkit-opacity:0.4; /*vendor prefixes for website browsers*/
-  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */ }
+  opacity: 0.2;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out; }
 
 
 /* =Footer
