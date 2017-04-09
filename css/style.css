@@ -233,8 +233,7 @@ header.smaller {
 haut-bas {
 }
     haut-bas img#bas {
-      left: 30px;
-      top: 300px; }
+    margin-top: 300px; }
     haut-bas img#haut {
       left: 30px;
       bottom: 30px; }
