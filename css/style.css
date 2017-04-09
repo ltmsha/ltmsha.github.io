@@ -204,17 +204,15 @@ header {
 
 header nav ul {
     display: inline-block;
-      z-index: 3;
     /* position: absolute; */
 }
 header nav li {
     list-style: none;
-    position: relative;
+    position: absolute;
     display: inline-block;
     float: left;
     margin-right: 10px;
     text-align: center;
-    z-index: 3;
 }
 header nav ul li a {
     text-decoration: none;
