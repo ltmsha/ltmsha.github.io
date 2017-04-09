@@ -212,6 +212,7 @@ header nav li {
     float: left;
     margin-right: 10px;
     text-align: center;
+    z-index: 1;
 }
 header nav ul li a {
     text-decoration: none;
