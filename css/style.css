@@ -287,12 +287,12 @@ header.smaller {
 
   #info-bar a {
     display: block; }
-  #info-bar span.haut,
-  #info-bar span.precedent {
+  #info-bar span.right,
+  #info-bar span.left {
     width: 100%; }
-  #info-bar span.haut,
-  #info-bar span.precedent {
+  #info-bar span.right,
+  #info-bar span.left {
     float: none;
     text-align: center; }
-  #info-bar span.haut {
+  #info-bar span.right {
     border-bottom: solid 1px #37cc5c; } }
