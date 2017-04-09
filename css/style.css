@@ -230,21 +230,20 @@ header.smaller {
 
 /* =Haut/bas
 -------------------------------------------------------------- */
-haut-bas img {
+haut-bas {
   position: fixed;
   float: left;
-  margin-top: 200px;
+  margin-top: 200px; }
+haut-bas img {
   opacity:0.4; /* how much transparent you want image to be*/
   filter:alpha(opacity=40); /* browser fix*/
   -webkit-opacity:0.4; /*vendor prefixes for website browsers*/
-  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */
-}
-haut-bas img:hover{
+  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */}
+haut-bas img:hover {
   opacity:1; /* how much transparent you want image to be*/
   filter:alpha(opacity=40); /* browser fix*/
   -webkit-opacity:0.4; /*vendor prefixes for website browsers*/
-  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */
-}
+  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */ }
 
 
 /* =Footer
