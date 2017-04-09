@@ -202,35 +202,6 @@ header {
     display: inline-block;
     float: right; }
 
-header nav ul {
-    display: inline-block;
-    position: absolute;
-  overflow: visible;
-}
-header nav li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    margin-right: 10px;
-    text-align: center;
-}
-header nav ul li a {
-    text-decoration: none;
-    color:lime;
-    line-height:30px;
-    width:40px;
-    /* display: block; */
-}
-header nav ul ul {
-    display:none;
-    position:absolute;
-margin: 0;
-padding: 0;
-}
-header nav ul li:hover ul {
-    display:block;
-}
-
     header nav a {
       line-height: 150px;
       margin-left: 20px;
@@ -244,6 +215,27 @@ header nav ul li:hover ul {
       transition: all 0.3s; }
       header nav a:hover {
         color: #fefefe; }
+
+header nav ul {
+    display: inline-block;
+    position: absolute;
+  overflow: visible;
+}
+header nav li {
+    list-style: none; }
+
+header nav ul li a {
+    display: block; }
+
+header nav ul ul {
+    display:none;
+    position:absolute;
+margin: 0;
+padding: 0;
+}
+header nav ul li:hover ul {
+    display:block;
+}
   
 header.smaller {
     height: 75px; }
