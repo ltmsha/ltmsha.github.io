@@ -1,164 +1,21 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-
-<!-- title and meta -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-<meta name="description" content="" />
-<title>🎾 LTMSHA</title>
-    
-<!-- css -->
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/style.css" />
-    
-<!-- js -->
-<script src="js/classie.js"></script>
-<script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 50,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-</script>
-</head>
+---
+layout: default
+title: Accueil
+---
 
 
-
-<body>
-
-<div id="wrapper">
-
-<header>
-    <div class="container clearfix">
-        <h1 id="logo">
-            <!--<a href="">LTMSHA</a>-->
-            <a href=""><img id="logo" src="images/ltmsha_logo1.png" onMouseOver="this.src='images/ltmsha_logo2.png'" onMouseOut="this.src='images/ltmsha_logo1.png'"/></a>
-        </h1>
-
-        <nav>
-            <a href="qui.html">À propos</a>
-            <a href="saisons.html">Saisons</a>
-            <a href="joueurs.html">Les joueurs</a>
-            <a href="faits.html">Faits marquants</a>
-            <a href="contact.html">Nous contacter</a>
- 
-        </nav>
-    </div>
-</header><!-- /header -->
-    
-    
-    
-<haut-bas>    
-    <div class="container clearfix">
-        <a href="#"><img src="images/haut.png" /></a>
-        <a href="#"><img src="images/bas.png" /></a>
-    </div>
-</haut-bas>
-
-
-
-
-
-    
-<div id="main">
-    <div id="content">
-        
-        <!--<img src="/images/tab_resultats.png" style="float:right" width="600px"/>-->
-        
-
-        
-        
-        
-        <section>
-            <div class="container">
-                <h1>Le site fait peau neuve!</h1>
-                <p>Nouvelle adresse. Nouvelle présentation. Même plaisir.</p>
-                <p>Le nouveau site servira également de projet #3 en conception de cossins.</p>
-                                     
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Bilan de la saison 2016</h1>
-                <p>Bravo à tous les participants de la saison 2016 de la L.T.M.S.H.A.</p>
-                <p>Faits marquants cette année:
-            <ul>
-                <li>- Deux femmes ont prit part à des matchs de la L.T.M.S.H.A.</li>
-                <li>- Le trophée de la recrue de l'année est gagné par une femme pour la 2ème fois</li>
-                <li>- La marque pour le plus d'As durant un match a été établit à 10 par Mathieu Provençal</li>
-                <li>- La marque pour le meilleur pourcentage de victoire durant le saison à été établie à 91.7% par Vincent Roy</li>
-                <li>- Renaud Avard est maintenant le seul joueur de la L.T.M.S.H.A. à avoir jouer au moins 20 matchs pour chacune de ses 8 saisons.</li>
-            </ul>
-         <p><ul>
-                <li>Trophée LTMSHA - Vincent Roy</li>
-                <li>Trophée Président - Vincent Roy</li>
-                <li>Trophée Laframboise - Vincent Roy</li>
-                <li>Trophée Jack Layton - Mathieu Provençal</li>
-                <li>Trophée Provençal - Héloïse Cauchy-Ferland</li>
-                <li>Trophée Crystal - Mathieu Provençal</li>
-            </ul>
-                
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Début de la saison 2016</h1>
-                <p>Avril achève et déjà l'odeur des cordages se font sentir. Notre envoyé spécial David Dubé confirme que les filets sont maintenant posés au Parc Jean-Duceppe.</p>
-                <p>L'enthousiasme des joueurs est palpable à l'aube des premiers matchs de l'année.</p>
-                <p>Une grande première cette année pour faciliter la communication entre joueurs pour l'organisation des matchs, un groupe privé Facebook au nom de la LTMSHA est maintenant en ligne. À cet effet Mathieu Provençal dit: "Yeah!!!!!!!!!!!".</p>
-                <p>Pas de nouveaux trophée pour 2016 au grand soulagement de Vincent Roy qui n'a pu de place sur son étagère à trophée.</p>
-                <p>Par contre, il n'est pas impossible qu'un ou une mécène mystère fasse un généreux don à la LTMSHA en l'échange de pouvoir décerner un prix de son choix aux membres de la LTMSHA... à suivre.</p>
-                <p>Sur ce Clang! (bruit de balle qui cogne le cadre d'une raquette) et bonne saison!</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Titre</h1>
-                <p>Texte</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Titre</h1>
-                <p>Texte</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Titre</h1>
-                <p>Texte</p>
-            </div>
-        </section>
-    </div>
-</div><!-- #main -->
-
-
-<footer>
-<div id="info-bar">
-    <div class="container clearfix">
-        <span class="left"><a href="#">&#8632; Haut</a></span>
-        <span class="right"><p>@Mathieu Provençal</p></span>
-    </div>
-</div><!-- /#top-bar -->
-</footer><!-- /footer -->
-
-
-
-</div><!-- /#wrapper -->
-
-
-</body>
-</html>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T17:08:48-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Test de résultats</title><link href="http://localhost:4000/jekyll/update/2017/04/10/Test-de-r%C3%A9sultats.html" rel="alternate" type="text/html" title="Test de résultats" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/update/2017/04/10/Test%20de%20r%C3%A9sultats</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/10/Test-de-r%C3%A9sultats.html">&lt;p&gt;Résultats de la saison 2016&lt;/p&gt;
+
+&lt;table class=&quot;table sortable&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Classement des joueurs&lt;/th&gt;
+      &lt;th&gt;MJ&lt;/th&gt;
+      &lt;th&gt;V&lt;/th&gt;
+      &lt;th&gt;D&lt;/th&gt;
+      &lt;th&gt;N&lt;/th&gt;
+      &lt;th&gt;LD&lt;/th&gt;
+      &lt;th&gt;PTS&lt;/th&gt;
+      &lt;th&gt;PCT&lt;/th&gt;
+      &lt;th&gt;SÉQ&lt;/th&gt;
+      &lt;th&gt;AS&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vincent Roy&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+      &lt;td&gt;0.917&lt;/td&gt;
+      &lt;td&gt;V10&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mathieu Provençal&lt;/td&gt;
+      &lt;td&gt;18&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;19&lt;/td&gt;
+      &lt;td&gt;0.444&lt;/td&gt;
+      &lt;td&gt;V2&lt;/td&gt;
+      &lt;td&gt;18&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Renaud Avard&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;0.333&lt;/td&gt;
+      &lt;td&gt;D7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;David Dubé&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;0.500&lt;/td&gt;
+      &lt;td&gt;V1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andréanne Rachiele&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0.000&lt;/td&gt;
+      &lt;td&gt;D2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Héloïse Cauchy-Ferland&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0.000&lt;/td&gt;
+      &lt;td&gt;D1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Résultats de la saison 2016</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/04/09/Comment-qu'on-fait.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/jekyll/update/2017/04/09/Comment%20qu'on%20fait</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/09/Comment-qu'on-fait.html">&lt;p&gt;Comment que c’est qu’on fait?
+fsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf&lt;/p&gt;
+
+&lt;p&gt;sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sdddd&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Priority apples&lt;/th&gt;
+      &lt;th&gt;Second priority&lt;/th&gt;
+      &lt;th&gt;Third priority&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ambrosia&lt;/td&gt;
+      &lt;td&gt;gala&lt;/td&gt;
+      &lt;td&gt;red delicious&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pink lady&lt;/td&gt;
+      &lt;td&gt;jazz&lt;/td&gt;
+      &lt;td&gt;macintosh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;honeycrisp&lt;/td&gt;
+      &lt;td&gt;granny smith&lt;/td&gt;
+      &lt;td&gt;fuji&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Comment que c’est qu’on fait? fsdg gadsfg dsfads fdasfasdf adsfads fasf sf sddddfsdg gadsfg dsfads fdasfasdf adsfads fasf</summary></entry></feed>

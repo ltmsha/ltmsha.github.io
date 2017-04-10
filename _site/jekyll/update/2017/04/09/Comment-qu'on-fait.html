@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="" />
+<title>🎾 LTMSHA</title>
+    
+<!-- css -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/style.css" />
+    
+<!-- js -->
+<script src="/js/classie.js"></script>
+<script src="/js/sorttable.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+    <body>
+
+
+<div id="wrapper">
+
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            <!--<a href="">LTMSHA</a>-->
+            <a href=""><img id="logo" src="/images/ltmsha_logo1.png" onMouseOver="this.src='/images/ltmsha_logo2.png'" onMouseOut="this.src='/images/ltmsha_logo1.png'"/></a>
+        </h1>
+
+        <nav>
+            <a href="/qui.html">À propos</a>
+            <a href="/saisons.html">Saisons</a>
+            <a href="/joueurs.html">Les joueurs</a>
+            <a href="/faits.html">Faits marquants</a>
+            <a href="/contact.html">Nous contacter</a>
+ 
+        </nav>
+    </div>
+</header><!-- /header -->
+
+
+<haut-bas>    
+    <div class="container clearfix">
+        <a href="#"><img src="/images/haut.png" /></a>
+        <a href="#"><img src="/images/bas.png" /></a>
+    </div>
+</haut-bas>
+
+
+<div id="main">
+<div id="content">
+<section>
+<div class="container">
+
+    	<p><h1>Welcome to Jekyll!</h1>
+    	<date><small> 9 avril 2017</small></date></p>
+
+    	
+
+    	<p><p>Comment que c’est qu’on fait?
+fsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf</p>
+
+<p>sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sddddfsdg
+gadsfg
+dsfads
+fdasfasdf
+adsfads
+fasf
+sf
+sdddd</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Priority apples</th>
+      <th>Second priority</th>
+      <th>Third priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ambrosia</td>
+      <td>gala</td>
+      <td>red delicious</td>
+    </tr>
+    <tr>
+      <td>pink lady</td>
+      <td>jazz</td>
+      <td>macintosh</td>
+    </tr>
+    <tr>
+      <td>honeycrisp</td>
+      <td>granny smith</td>
+      <td>fuji</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+    	
+    	<p></p>
+
+
+            </div>
+            </section>
+    </div>
+</div><!-- #main -->
+
+
+
+<footer>
+<div id="info-bar">
+    <div class="container clearfix">
+        <span class="left"><a href="#">&#8632; Haut</a></span>
+        <span class="right"><p>@Mathieu Provençal</p></span>
+    </div>
+</div><!-- /#top-bar -->
+</footer><!-- /footer -->
+
+
+
+</div><!-- /#wrapper -->
+</body>
+</html>
+
