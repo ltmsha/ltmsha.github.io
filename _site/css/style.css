@@ -52,7 +52,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%; 
-  table-layout:fixed; }
+  table-layout:fixed;
+     margin: 25px 0 30px 0; }
   
 
 /* Sortable tables */
@@ -61,7 +62,7 @@ table.sortable thead {
     color:#666666;
     font-weight: bold;
     cursor: default;
-}
+    margin: 25px 0 30px 0; }
 
 a img {
   border: none; }

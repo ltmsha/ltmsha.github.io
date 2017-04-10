@@ -1,5 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T18:52:36-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Classements 2016</title><link href="http://localhost:4000/classements/2017/04/10/Classements2016.html" rel="alternate" type="text/html" title="Classements 2016" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/classements/2017/04/10/Classements2016</id><content type="html" xml:base="http://localhost:4000/classements/2017/04/10/Classements2016.html">&lt;table class=&quot;table sortable&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T19:44:37-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Classements 2017</title><link href="http://localhost:4000/classements/2017/04/10/Classements2017.html" rel="alternate" type="text/html" title="Classements 2017" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/classements/2017/04/10/Classements2017</id><content type="html" xml:base="http://localhost:4000/classements/2017/04/10/Classements2017.html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Début de la saison prévue pour le 15 avril&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table class=&quot;table sortable&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Classement des joueurs&lt;/th&gt;
+      &lt;th&gt;MJ&lt;/th&gt;
+      &lt;th&gt;V&lt;/th&gt;
+      &lt;th&gt;D&lt;/th&gt;
+      &lt;th&gt;N&lt;/th&gt;
+      &lt;th&gt;LD&lt;/th&gt;
+      &lt;th&gt;PTS&lt;/th&gt;
+      &lt;th&gt;PCT&lt;/th&gt;
+      &lt;th&gt;SÉQ&lt;/th&gt;
+      &lt;th&gt;AS&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vincent Roy&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mathieu Provençal&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Renaud Avard&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;David Dubé&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Sommaire des match&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Début de la saison prévue pour le 15 avril</summary></entry><entry><title type="html">Le site fait peau neuve!</title><link href="http://localhost:4000/2017/04/09/Nouveau-site.html" rel="alternate" type="text/html" title="Le site fait peau neuve!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/2017/04/09/Nouveau%20site</id><content type="html" xml:base="http://localhost:4000/2017/04/09/Nouveau-site.html">&lt;p&gt;Nouvelle adresse. Nouvelle présentation. Même plaisir.&lt;/p&gt;
+
+&lt;p&gt;Le nouveau site servira également de projet #3 en conception de cossins.&lt;/p&gt;
+
+&lt;p&gt;Même si je ne vais finalement pas pouvor lui remettre cette version parce qu’elle est un eu trop avancée et ce que le prof veut, c’est plus quelque chose comme l’ancien site.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nouvelle adresse. Nouvelle présentation. Même plaisir.</summary></entry><entry><title type="html">Classements 2016</title><link href="http://localhost:4000/classements/2017/04/09/Classements2016.html" rel="alternate" type="text/html" title="Classements 2016" /><published>2017-04-09T00:00:00-04:00</published><updated>2017-04-09T00:00:00-04:00</updated><id>http://localhost:4000/classements/2017/04/09/Classements2016</id><content type="html" xml:base="http://localhost:4000/classements/2017/04/09/Classements2016.html">&lt;table class=&quot;table sortable&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Classement des joueurs&lt;/th&gt;
@@ -88,11 +161,104 @@
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Classement des joueurs MJ V D N LD PTS PCT SÉQ AS Vincent Roy 12 11 1 0 0 22 0.917 V10 5 Mathieu Provençal 18 8 7 1 2 19 0.444 V2 18 Renaud Avard 21 7 13 1 0 15 0.333 D7 9 David Dubé 4 2 2 0 0 4 0.500 V1 0 Andréanne Rachiele 2 0 2 0 0 0 0.000 D2 0 Héloïse Cauchy-Ferland 1 0 1 0 0 0 0.000 D1 0</summary></entry><entry><title type="html">Le site fait peau neuve!</title><link href="http://localhost:4000/2017/04/09/Nouveau-site.html" rel="alternate" type="text/html" title="Le site fait peau neuve!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/2017/04/09/Nouveau%20site</id><content type="html" xml:base="http://localhost:4000/2017/04/09/Nouveau-site.html">&lt;p&gt;Nouvelle adresse. Nouvelle présentation. Même plaisir.&lt;/p&gt;
+&lt;/table&gt;
 
-&lt;p&gt;Le nouveau site servira également de projet #3 en conception de cossins.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sommaire des match&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Même si je ne vais finalement pas pouvor lui remettre cette version parce qu’elle est un eu trop avancée et ce que le prof veut, c’est plus quelque chose comme l’ancien site.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nouvelle adresse. Nouvelle présentation. Même plaisir.</summary></entry><entry><title type="html">Bilan 2016</title><link href="http://localhost:4000/2016/12/01/Bilan-2016.html" rel="alternate" type="text/html" title="Bilan 2016" /><published>2016-12-01T00:00:00-05:00</published><updated>2016-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/01/Bilan%202016</id><content type="html" xml:base="http://localhost:4000/2016/12/01/Bilan-2016.html">&lt;p&gt;Bravo à tous les participants de la saison 2016 de la L.T.M.S.H.A.&lt;/p&gt;
+&lt;h3 id=&quot;19-octobre-2016-au-parc-jean-duceppe&quot;&gt;&lt;em&gt;19 octobre 2016&lt;/em&gt; au Parc Jean-Duceppe&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal gagne 6 à 1 contre Renaud Avard&lt;/li&gt;
+  &lt;li&gt;Mathieu Provençal (2 As) gagne 6 à 3 contre Renaud Avard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-octobre-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;7 octobre 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;h4 id=&quot;finale&quot;&gt;Finale&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy gagne 6 à 1 contre Mathieu Provençal&lt;/li&gt;
+  &lt;li&gt;Vincent Roy (2 As) gagne 6 à 3 contre Renaud Avard (1 As)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;29-septembre-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;29 septembre 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;h4 id=&quot;demi-finale&quot;&gt;Demi-finale&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal (3ème) (1 As) gagne 6 à 4 contre Renaud Avard (2ème) (2 As)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-septembre-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;7 septembre 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal (10 As) gagne 6 à 0 contre Héloïse Cauchy-Ferland&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;25-août-2016-au-parc-jean-de-lalande-longueuil&quot;&gt;&lt;em&gt;25 août 2016&lt;/em&gt; au Parc Jean-de-Lalande (Longueuil)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy gagne 6 à 2 contre Renaud Avard&lt;/li&gt;
+  &lt;li&gt;Vincent Roy gagne 6 à 0 contre Renaud Avard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;8-août-2016-au-parc-jean-louis-longueuil&quot;&gt;&lt;em&gt;8 août 2016&lt;/em&gt; au Parc Jean-Louis (Longueuil)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy gagne 4 à 1 contre David Dubé&lt;/li&gt;
+  &lt;li&gt;David Dubé gagne 4 à 1 contre Renaud Avard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;26-juillet-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;26 juillet 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Renaud Avard gagne 6 à 2 contre Mathieu Provençal&lt;/li&gt;
+  &lt;li&gt;Renaud Avard (1 As) gagne 5 à 0 contre Mathieu Provençal (1 As) (abandon)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22-juillet-2016-au-parc-jean-louis-longueuil&quot;&gt;&lt;em&gt;22 juillet 2016&lt;/em&gt; au Parc Jean-Louis (Longueuil)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy (1 As) gagne 6 à 1 contre Andréanne Rachiele&lt;/li&gt;
+  &lt;li&gt;Vincent Roy gagne 6 à 1 contre Andréanne Rachiele&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;21-juillet-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;21 juillet 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal (1 As) gagne 4 à 2 contre Renaud Avard (arrêt par le temps (chaleur))&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;23-juin-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;23 juin 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal (2 As) gagne 6 à 1 contre Renaud Avard&lt;/li&gt;
+  &lt;li&gt;Renaud Avard gagne 4 à 2 contre Mathieu Provençal (1 As)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;16-juin-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;16 juin 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy gagne 3 à 0 contre Renaud Avard&lt;/li&gt;
+  &lt;li&gt;Vincent Roy gagne 3 à 0 contre Mathieu Provençal&lt;/li&gt;
+  &lt;li&gt;Vincent Roy (2 As) gagne 3 à 0 contre Renaud Avard&lt;/li&gt;
+  &lt;li&gt;Mathieu Provençal gagne 3 à 0 contre Renaud Avard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;10-juin-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;10 juin 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Renaud Avard (1 As) gagne 7 à 5 contre Mathieu Provençal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;9-juin-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;9 juin 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Renaud Avard (3 As) gagne 6 à 2 contre Mathieu Provençal&lt;/li&gt;
+  &lt;li&gt;Renaud Avard (1 As) gagne 7 à 6 (Bris d’égalité 7-5) contre Mathieu Provençal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-juin-2016-au-parc-jean-louis-longueuil&quot;&gt;&lt;em&gt;7 juin 2016&lt;/em&gt; au Parc Jean-Louis (Longueuil)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathieu Provençal gagne 15 à 0 (0-0) contre Vincent Roy (arrêt par la pluie)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-mai-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;5 mai 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Renaud Avard (1 As) gagne 6 à 3 contre Mathieu Provençal&lt;/li&gt;
+  &lt;li&gt;Égalité 2 à 2 entre Renaud Avard et Mathieu Provençal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;28-avril-2016-au-parc-jean-duceppe-rosemont&quot;&gt;&lt;em&gt;28 avril 2016&lt;/em&gt; au Parc Jean-Duceppe (Rosemont)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vincent Roy gagne 4 à 2 contre David Dubé&lt;/li&gt;
+  &lt;li&gt;David Dubé gagne 4 à 1 contre Renaud Avard&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Classement des joueurs MJ V D N LD PTS PCT SÉQ AS Vincent Roy 12 11 1 0 0 22 0.917 V10 5 Mathieu Provençal 18 8 7 1 2 19 0.444 V2 18 Renaud Avard 21 7 13 1 0 15 0.333 D7 9 David Dubé 4 2 2 0 0 4 0.500 V1 0 Andréanne Rachiele 2 0 2 0 0 0 0.000 D2 0 Héloïse Cauchy-Ferland 1 0 1 0 0 0 0.000 D1 0</summary></entry><entry><title type="html">Bilan 2016</title><link href="http://localhost:4000/2016/12/01/Bilan-2016.html" rel="alternate" type="text/html" title="Bilan 2016" /><published>2016-12-01T00:00:00-05:00</published><updated>2016-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/01/Bilan%202016</id><content type="html" xml:base="http://localhost:4000/2016/12/01/Bilan-2016.html">&lt;p&gt;Bravo à tous les participants de la saison 2016 de la L.T.M.S.H.A.&lt;/p&gt;
 
 &lt;p&gt;Faits marquants cette année:&lt;/p&gt;
 
