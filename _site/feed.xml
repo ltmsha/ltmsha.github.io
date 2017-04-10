@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T17:08:48-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Test de résultats</title><link href="http://localhost:4000/jekyll/update/2017/04/10/Test-de-r%C3%A9sultats.html" rel="alternate" type="text/html" title="Test de résultats" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/update/2017/04/10/Test%20de%20r%C3%A9sultats</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/10/Test-de-r%C3%A9sultats.html">&lt;p&gt;Résultats de la saison 2016&lt;/p&gt;
-
-&lt;table class=&quot;table sortable&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T18:48:27-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Classements 2016</title><link href="http://localhost:4000/classements/2017/04/10/Classements2016.html" rel="alternate" type="text/html" title="Classements 2016" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/classements/2017/04/10/Classements2016</id><content type="html" xml:base="http://localhost:4000/classements/2017/04/10/Classements2016.html">&lt;table class=&quot;table sortable&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Classement des joueurs&lt;/th&gt;
@@ -90,82 +88,105 @@
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Résultats de la saison 2016</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/04/09/Comment-qu'on-fait.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/jekyll/update/2017/04/09/Comment%20qu'on%20fait</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/09/Comment-qu'on-fait.html">&lt;p&gt;Comment que c’est qu’on fait?
-fsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Classement des joueurs MJ V D N LD PTS PCT SÉQ AS Vincent Roy 12 11 1 0 0 22 0.917 V10 5 Mathieu Provençal 18 8 7 1 2 19 0.444 V2 18 Renaud Avard 21 7 13 1 0 15 0.333 D7 9 David Dubé 4 2 2 0 0 4 0.500 V1 0 Andréanne Rachiele 2 0 2 0 0 0 0.000 D2 0 Héloïse Cauchy-Ferland 1 0 1 0 0 0 0.000 D1 0</summary></entry><entry><title type="html">Le site fait peau neuve!</title><link href="http://localhost:4000/2017/04/09/Nouveau-site.html" rel="alternate" type="text/html" title="Le site fait peau neuve!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/2017/04/09/Nouveau%20site</id><content type="html" xml:base="http://localhost:4000/2017/04/09/Nouveau-site.html">&lt;p&gt;Nouvelle adresse. Nouvelle présentation. Même plaisir.&lt;/p&gt;
 
-&lt;p&gt;sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sddddfsdg
-gadsfg
-dsfads
-fdasfasdf
-adsfads
-fasf
-sf
-sdddd&lt;/p&gt;
+&lt;p&gt;Le nouveau site servira également de projet #3 en conception de cossins.&lt;/p&gt;
 
-&lt;table&gt;
+&lt;p&gt;Même si je ne vais finalement pas pouvor lui remettre cette version parce qu’elle est un eu trop avancé et ce que le prof, c’est plus quelque chose comme l’ancien site.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nouvelle adresse. Nouvelle présentation. Même plaisir.</summary></entry><entry><title type="html">Bilan 2016</title><link href="http://localhost:4000/2016/12/01/Bilan-2016.html" rel="alternate" type="text/html" title="Bilan 2016" /><published>2016-12-01T00:00:00-05:00</published><updated>2016-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2016/12/01/Bilan%202016</id><content type="html" xml:base="http://localhost:4000/2016/12/01/Bilan-2016.html">&lt;p&gt;Bravo à tous les participants de la saison 2016 de la L.T.M.S.H.A.&lt;/p&gt;
+
+&lt;p&gt;Faits marquants cette année:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deux femmes ont prit part à des matchs de la L.T.M.S.H.A.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Le trophée de la recrue de l’année est gagné par une femme pour la 2ème fois&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;La marque pour le plus d’As durant un match a été établit à 10 par Mathieu Provençal&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;La marque pour le meilleur pourcentage de victoire durant le saison à été établie à 91.7% par Vincent Roy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Renaud Avard est maintenant le seul joueur de la L.T.M.S.H.A. à avoir jouer au moins 20 matchs pour chacune de ses 8 saisons.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Trophée LTMSHA - &lt;em&gt;Vincent Roy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Trophée Président - &lt;em&gt;Vincent Roy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Trophée Laframboise - &lt;em&gt;Vincent Roy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Trophée Jack Layton - &lt;em&gt;Mathieu Provençal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Trophée Provençal - &lt;em&gt;Héloïse Cauchy-Ferland&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Trophée Crystal - &lt;em&gt;Mathieu Provençal&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Bravo à tous les participants de la saison 2016 de la L.T.M.S.H.A.</summary></entry><entry><title type="html">Classements 2015</title><link href="http://localhost:4000/classements/2015/10/10/Classements2015.html" rel="alternate" type="text/html" title="Classements 2015" /><published>2015-10-10T00:00:00-04:00</published><updated>2015-10-10T00:00:00-04:00</updated><id>http://localhost:4000/classements/2015/10/10/Classements2015</id><content type="html" xml:base="http://localhost:4000/classements/2015/10/10/Classements2015.html">&lt;table class=&quot;table sortable&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Priority apples&lt;/th&gt;
-      &lt;th&gt;Second priority&lt;/th&gt;
-      &lt;th&gt;Third priority&lt;/th&gt;
+      &lt;th&gt;Classement des joueurs&lt;/th&gt;
+      &lt;th&gt;MJ&lt;/th&gt;
+      &lt;th&gt;V&lt;/th&gt;
+      &lt;th&gt;D&lt;/th&gt;
+      &lt;th&gt;N&lt;/th&gt;
+      &lt;th&gt;LD&lt;/th&gt;
+      &lt;th&gt;PTS&lt;/th&gt;
+      &lt;th&gt;PCT&lt;/th&gt;
+      &lt;th&gt;SÉQ&lt;/th&gt;
+      &lt;th&gt;AS&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;ambrosia&lt;/td&gt;
-      &lt;td&gt;gala&lt;/td&gt;
-      &lt;td&gt;red delicious&lt;/td&gt;
+      &lt;td&gt;Vincent Roy&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;0.857&lt;/td&gt;
+      &lt;td&gt;V2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;pink lady&lt;/td&gt;
-      &lt;td&gt;jazz&lt;/td&gt;
-      &lt;td&gt;macintosh&lt;/td&gt;
+      &lt;td&gt;Mathieu Provençal&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;0.292&lt;/td&gt;
+      &lt;td&gt;V1&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;honeycrisp&lt;/td&gt;
-      &lt;td&gt;granny smith&lt;/td&gt;
-      &lt;td&gt;fuji&lt;/td&gt;
+      &lt;td&gt;Renaud Avard&lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;0.480&lt;/td&gt;
+      &lt;td&gt;D1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;David Dubé&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;0.571&lt;/td&gt;
+      &lt;td&gt;D2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Comment que c’est qu’on fait? fsdg gadsfg dsfads fdasfasdf adsfads fasf sf sddddfsdg gadsfg dsfads fdasfasdf adsfads fasf</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Classement des joueurs MJ V D N LD PTS PCT SÉQ AS Vincent Roy 14 12 1 0 1 25 0.857 V2 2 Mathieu Provençal 24 7 14 0 3 17 0.292 V1 9 Renaud Avard 25 12 11 0 2 17 0.480 D1 2 David Dubé 7 4 2 0 1 9 0.571 D2 4</summary></entry></feed>
