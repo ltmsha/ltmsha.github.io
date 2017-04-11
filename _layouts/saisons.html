@@ -12,16 +12,17 @@
 
 
 {% for post in site.posts %}
-
-
-      {% if post.category == "classements"%}
+    {% if post.category == "classements"%}
 <section>
 <div class="container">
 <h1>{{ post.title }}</h1>
     <p>{{ post.content }}</p>
                 </div>
         </section>
-        {% endif %}
+
+        
+        
+    {% endif %}
 {% endfor %}
 
     </div>
