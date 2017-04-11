@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T20:23:09-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T20:48:10-04:00</updated><id>http://localhost:4000/</id><title type="html">LTMSHA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Classements 2017</title><link href="http://localhost:4000/classements/2017/04/10/Classements2017.html" rel="alternate" type="text/html" title="Classements 2017" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://localhost:4000/classements/2017/04/10/Classements2017</id><content type="html" xml:base="http://localhost:4000/classements/2017/04/10/Classements2017.html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Début de la saison prévue pour le 15 avril&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table class=&quot;table sortable&quot;&gt;
@@ -68,7 +68,12 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;em&gt;Sommaire des match&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Début de la saison prévue pour le 15 avril</summary></entry><entry><title type="html">Le site fait peau neuve!</title><link href="http://localhost:4000/2017/04/09/Nouveau-site.html" rel="alternate" type="text/html" title="Le site fait peau neuve!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/2017/04/09/Nouveau%20site</id><content type="html" xml:base="http://localhost:4000/2017/04/09/Nouveau-site.html">&lt;p&gt;Nouvelle adresse. Nouvelle présentation. Même plaisir.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sommaire des match&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;date-au-lieu&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt; au Lieu&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rencontre&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="classements" /><summary type="html">Début de la saison prévue pour le 15 avril</summary></entry><entry><title type="html">Le site fait peau neuve!</title><link href="http://localhost:4000/2017/04/09/Nouveau-site.html" rel="alternate" type="text/html" title="Le site fait peau neuve!" /><published>2017-04-09T16:33:32-04:00</published><updated>2017-04-09T16:33:32-04:00</updated><id>http://localhost:4000/2017/04/09/Nouveau%20site</id><content type="html" xml:base="http://localhost:4000/2017/04/09/Nouveau-site.html">&lt;p&gt;Nouvelle adresse. Nouvelle présentation. Même plaisir.&lt;/p&gt;
 
 &lt;p&gt;Le nouveau site servira également de projet #3 en conception de cossins.&lt;/p&gt;
 
