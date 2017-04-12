@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- css -->
+<link rel="stylesheet" href="/css/section.css" />
+
+{% include head.html %}
+
+{% include header.html %}
+
+{% include haut-bas.html %}
+
+<div id="main">
+<div id="content">
+
+
+{% for post in site.posts %}
+    {% if post.category == "classements"%}
+<section>
+<div class="container">
+<h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+                </div>
+        </section>
+
+        
+        
+    {% endif %}
+{% endfor %}
+
+    </div>
+</div><!-- #main -->
+
+
+{% include footer.html %}
+
+{% include foot.html %}
