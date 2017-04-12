@@ -5,7 +5,7 @@ section {
     margin-bottom: 10px; }
   section p, ul, li {
     margin-bottom: 10px; }
-    section p:last-child {
+    section p, ul, li:last-child {
       margin-bottom: 0; }
   section date {
     font-style: italic; }
