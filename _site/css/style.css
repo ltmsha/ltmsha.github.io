@@ -25,6 +25,15 @@ th, td {
   
 tr:hover {
     background-color: #f5f5f5; }
+    
+#preloadedImages {
+    background-image: url(/images/ban_3b.png);
+    image: url(/images/ltmsha_logo1.png);
+    image: url(/images/ltmsha_logo2.png);
+    image: url(/images/haut.png);
+    image: url(/images/bas.png); }
+
+
   
 body {
   line-height: 1; }
@@ -113,8 +122,7 @@ a:hover {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 0 30px;
-  z-index: 2; }
+  padding: 0 30px; }
 
 table-1 {
   border-collapse: separate;
@@ -123,26 +131,6 @@ table-1 {
 td.haut {
   vertical-align: top;
   padding: 10px; }
-
-section {
-  padding: 60px 0; }
-  section h1 {
-    font-weight: 700;
-    margin-bottom: 10px; }
-  section p {
-    margin-bottom: 10px; }
-    section p:last-child {
-      margin-bottom: 0; }
-  section date {
-    font-style: italic; }
-
-section:nth-of-type(1n) {
-  background-color: #fefefe; }
-
-section:nth-of-type(2n+2) {
-    background-color: #f7f7f7; }
-section:nth-of-type(2n+3) {
-    background-color: #fefefe; }
 
 
 
