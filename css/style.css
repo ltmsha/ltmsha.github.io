@@ -430,6 +430,7 @@ haut-bas img:hover {
 	color: #ffffff;
 	border: 0;
 	padding: 15px 50px;
+	padding-left: 10px;
 	font-weight: bold;
 	float: right;
 }
