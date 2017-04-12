@@ -415,7 +415,8 @@ haut-bas img:hover {
 
 
 .footer-distributed form input{
-	margin-left: 10px;
+	height: 55px;
+	margin-bottom: 15px;
 }
 
 .footer-distributed form textarea{
