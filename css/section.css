@@ -7,6 +7,10 @@ section {
     margin-bottom: 10px; }
     section p:last-child {
       margin-bottom: 0; }
+    section ul:last-child {
+      margin-bottom: 0; }
+    section li:last-child {
+      margin-bottom: 0; }
   section date {
     font-style: italic; }
 
