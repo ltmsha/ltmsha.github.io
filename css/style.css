@@ -241,7 +241,7 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: #5efc82;
+      color: #58f396;
       font-weight: 700;
       font-size: 16px;
       -webkit-transition: all 0.3s;
@@ -452,7 +452,7 @@ haut-bas img:hover {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 660px) {
+@media all and (max-width: 1200px) {
   /* =Header
   -------------------------------------------------------------- */
   header h1#logo {
