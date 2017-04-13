@@ -24,14 +24,14 @@ th, td {
      width:275px; }
   
 tr:hover {
-    background-color: #f5f5f5; }
+    background-color: #f9f9f9; }
     
 #preloadedImages {
     background-image: url(/images/ban_3b.png);
-    image: url(/images/ltmsha_logo1.png);
+    /*image: url(/images/ltmsha_logo1.png);
     image: url(/images/ltmsha_logo2.png);
     image: url(/images/haut.png);
-    image: url(/images/bas.png); }
+    image: url(/images/bas.png);*/ }
 
 
   
@@ -70,7 +70,6 @@ table {
 /* Sortable tables */
 table.sortable thead {
     background-color:#eee;
-    color:#666666;
     font-weight: bold;
     cursor: default; }
 
@@ -91,19 +90,19 @@ a img {
 body {
   background-color: #fefefe;
   color: #4c4c4c;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "pt_serifregular", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
     
 }
 .firstcharacter {
-  color: #4d9ac9;
+  color: #4c4c4c;
   float: left;
-  font-family: AntonioRegular;
+  font-family: "AntonioRegular";
   font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
+  line-height: 50px;
+  padding-top: 0px;
   padding-right: 8px;
   padding-left: 3px;
 }
@@ -112,7 +111,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 300;
-   font-family: "AntonioRegular", Times, serif;
+  font-family: "AntonioRegular", sans-serif;
 }
 
 a {
@@ -291,7 +290,7 @@ haut-bas img:hover {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: bold 16px;
 	text-align: left;
 
 	padding: 50px 60px 40px;
@@ -430,6 +429,7 @@ haut-bas img:hover {
 	color: #ffffff;
 	border: 0;
 	padding: 15px 50px;
+	margin-left: 10px;
 	font-weight: bold;
 	float: right;
 }
