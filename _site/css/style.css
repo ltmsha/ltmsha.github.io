@@ -434,10 +434,109 @@ haut-bas img:hover {
 	border: 0;
 	padding: 15px 50px;
 	margin-left: 10px;
+    margin-bottom: 10px;
 	font-weight: bold;
 	float: right;
 }
 
+
+
+/* =Extras
+-------------------------------------------------------------- */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 660px) {
+  /* =Header
+  -------------------------------------------------------------- */
+  header h1#logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px; }
+  header img#logo {
+    display: block;
+    float: none;
+    margin: 10px auto;
+    height: 85px;
+    line-height: 100px; }
+  header nav {
+    display: block;
+    float: none;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto; }
+    header nav a {
+      line-height: 50px;
+      margin: 0 10px; }
+  header.smaller {
+    height: 75px; }
+  
+
+  
+    header.smaller h1#logo {
+      height: 40px;
+      line-height: 40px;
+      font-size: 30px; }
+    header.smaller img#logo {
+      height: 0;
+      line-height: 0;
+            -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s; 
+    }
+    header.smaller nav {
+        top: 0;
+      height: 100px; }
+      header.smaller nav a {
+        line-height: 0;
+          top: 0;
+    }
+        
+haut-bas {
+  position: fixed;
+  float: left;
+  margin-top: 200px;
+    z-index: 999;
+} 
+haut-bas img {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out; }
+haut-bas img:hover {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out; } }
+
+
+
+@media all and (max-width: 600px) {
+  .container {
+    width: 100%; }
+
+  #info-bar a {
+    display: block; }
+  #info-bar span.right,
+  #info-bar span.left {
+    width: 100%; }
+  #info-bar span.right,
+  #info-bar span.left {
+    float: none;
+    text-align: center; }
+  #info-bar span.right {
+border-bottom: solid 1px #37cc5c; } } */
+  
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
@@ -491,73 +590,3 @@ haut-bas img:hover {
 	}
 }
 
-
-/* =Extras
--------------------------------------------------------------- */
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0; }
-
-/* =Media Queries
--------------------------------------------------------------- */
-@media all and (max-width: 660px) {
-  /* =Header
-  -------------------------------------------------------------- */
-  header h1#logo {
-    display: block;
-    float: none;
-    margin: 0 auto;
-    height: 100px;
-    line-height: 100px; }
-  header img#logo {
-    display: block;
-    float: none;
-    margin: 0 auto;
-    height: 100px;
-    line-height: 100px; }
-  header nav {
-    display: block;
-    float: none;
-    height: 50px;
-    text-align: center;
-    margin: 0 auto; }
-    header nav a {
-      line-height: 50px;
-      margin: 0 10px; }
-  header.smaller {
-    height: 75px; }
-  
-
-  
-    header.smaller h1#logo {
-      height: 40px;
-      line-height: 40px;
-      font-size: 30px; }
-    header.smaller img#logo {
-      height: 50px;
-      line-height: 40px; }
-    header.smaller nav {
-      height: 35px; }
-      header.smaller nav a {
-        line-height: 35px; } }
-
-
-
-@media all and (max-width: 600px) {
-  .container {
-    width: 100%; }
-
-  #info-bar a {
-    display: block; }
-  #info-bar span.right,
-  #info-bar span.left {
-    width: 100%; }
-  #info-bar span.right,
-  #info-bar span.left {
-    float: none;
-    text-align: center; }
-  #info-bar span.right {
-border-bottom: solid 1px #37cc5c; } } 
