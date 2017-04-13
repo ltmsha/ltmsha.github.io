@@ -21,10 +21,11 @@ th, td {
   th:nth-child(1),
   td:nth-child(1) {
      text-align: left;
-     width:275px; }
+     width:275px;
+ }
   
 tr:hover {
-    background-color: #f9f9f9; }
+    background-color: #fafafa; }
     
 #preloadedImages {
     background-image: url(/images/ban_3b.png);
@@ -60,10 +61,11 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  border: 1px solid #ddd;
   width: 100%; 
   table-layout:fixed;
      margin: 25px 0 30px 0;
-    overflow: auto;
+    overflow: scroll;
 }
   
 
@@ -71,7 +73,9 @@ table {
 table.sortable thead {
     background-color:#eee;
     font-weight: bold;
-    cursor: default; }
+    cursor: default;
+    border: 1px;
+}
 
 a img {
   border: none; }
@@ -89,16 +93,15 @@ a img {
 
 body {
   background-color: #fefefe;
-  color: #4c4c4c;
+  color: #212121;
   font-family: "DIN-Regular", sans-serif;
   font-size: 16px;
   line-height: 1.9;
     
 }
 .firstcharacter {
-  color: #4c4c4c;
   float: left;
-  font-family: "AntonioRegular";
+  font-family: "Bebas Neue";
   font-size: 75px;
   line-height: 50px;
   padding-top: 0px;
@@ -109,12 +112,12 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
-  font-family: "AntonioRegular", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #4c4c4c; }
+  color: #212121; }
 
 a:hover {
   color: #6b6b6b; }
@@ -140,6 +143,7 @@ a:hover {
 td.haut {
   vertical-align: top;
   padding: 10px; }
+
 
 
 
@@ -208,7 +212,7 @@ header {
     height: 150px;
     line-height: 150px;
     float: left;
-    font-family: "AntonioRegular", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
     color: #4c4f52;
     font-weight: 400;
@@ -220,10 +224,10 @@ header {
   
   header img#logo {
     display: inline-block;
-    height: 100px;
+    height: 85px;
     line-height: 150px;
     float: left;
-    margin-top: 25px;
+    margin-top: 33px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -256,9 +260,9 @@ header.smaller {
       line-height: 75px;
       font-size: 30px; }
     header.smaller img#logo {
-      margin-top: 5px;
-      height: 87px;
-      line-height: 87px; }
+      margin-top: 8px;
+      height: 85px;
+      line-height: 85px; }
     header.smaller nav a {
       line-height: 75px; }
 
@@ -286,7 +290,7 @@ haut-bas img:hover {
 /* =Footer
 -------------------------------------------------------------- */
 .footer-distributed{
-	background-color: #2d2d2d;
+	background-color: #212121;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -313,7 +317,7 @@ haut-bas img:hover {
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color:  #757575;
 }
 
 /* Footer links */
@@ -349,7 +353,7 @@ haut-bas img:hover {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #3e3e3e;
+	background-color:  #2a2a2a;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -425,7 +429,7 @@ haut-bas img:hover {
 
 .footer-distributed form button{
 	border-radius: 3px;
-	background-color:  #3e3e3e;
+	background-color:  #2a2a2a;
 	color: #ffffff;
 	border: 0;
 	padding: 15px 50px;
