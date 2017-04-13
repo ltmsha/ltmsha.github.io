@@ -8,4 +8,4 @@ Nouvelle adresse. Nouvelle présentation. Même plaisir.
 
 Le nouveau site servira également de projet #3 en conception de cossins.
 
-Même si je ne vais finalement pas pouvor lui remettre cette version parce qu'elle est un eu trop avancée et ce que le prof veut, c'est plus quelque chose comme l'ancien site.
+Même si je ne vais finalement pas pouvor lui remettre cette version parce qu'elle est trop "compliquée" et ce que le prof veut, c'est plus quelque chose comme l'ancien site.
