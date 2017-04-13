@@ -189,7 +189,7 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #37cc5c;
+  background-color: #00c853;
   background-image: url(/images/ban_3b.png);
   background-repeat: no-repeat;
   -webkit-transition: height 0.3s;
@@ -237,7 +237,7 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: #88e9a2;
+      color: #5efc82;
       font-weight: 700;
       font-size: 16px;
       -webkit-transition: all 0.3s;
