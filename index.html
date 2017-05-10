@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LTMSHA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="fr" content="Site officiel de la célèbre ligue de tennis LTMSHA">
+		<!--<meta name="author" content="Mathieu Provençal">-->
+
+		<!-- icon -->
+		<link rel="shortcut icon" href="favicon.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="css/styles_MP.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		
+		<!-- js -->
+		<script src="js/classie.js"></script>
+		<script src="js/sorttable.js"></script>
+		
+		<script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 50,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+            window.onload = init();
+        </script>
+    </head>
+    
+   
+	<body>
+		<header>
+			<div class="container">
+        
+            <!--<a href="">LTMSHA</a>-->
+            <a href="index.html"><img id="logo" src="assets/balle_logo1.png" onMouseOver="this.src='assets/balle_logo2.png'" onMouseOut="this.src='assets/balle_logo1.png'"/></a>
+        
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="propos.html">À propos</a>
+            <a href="joueurs.html">Joueurs</a>
+            <a href="saisons.html">Saisons</a>
+            <a href="faits.html">Faits marquants</a>
+            <!--<a href="trophees.html">Trophées</a>-->
+            <a href="magasin.html">Magasin</a>
+            <a href="#Bas"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+ 
+        </nav>
+        </div>
+</header>
+
+<div class="up-down">    
+    <div class="container">
+        <a href="#"><img src="assets/haut.png" /></a>
+        <a href="#Bas"><img src="assets/bas.png" /></a>
+    </div>
+</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="main">
+					<h1>Accueil - Nouvelles</h1>
+					
+					<hr>
+					<h2>Début de saison</h2>
+					<p>En attendant le début de saison...</p>
+					<blockquote>
+						<p>Le tennis et le ping-pong, c'est pareil. Sauf qu'au tennis, les joueurs sont debout sur la table.</p>
+						<footer>Coluche</footer>
+					</blockquote>
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Dimanche, 7 mai 2017</span>
+					<hr>
+
+					<h2>Le site fait peau neuve!</h2>
+					<p>Nouvelle adresse. Nouvelle présentation. Même plaisir.</p>
+					<p>Le nouveau site servira également de projet #3 en conception de cossins.</p>
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Samedi, 6 mai 2017</span>
+					
+					<hr>
+					
+					<a name="hasard"><h2>Image de tennis</h2></a>
+					<p>Image de tennis <code>http://www.generac.fr/images/tennis.jpg</code></p>
+					<p><a href="tennisr.html"><img class="img-responsive" src="img/tennis.jpg" alt=""></a><br>Cliquer sur l'image pour agrandir.</p>
+					
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Mercredi, 3 mai 2017</span>
+					
+					<hr>
+					
+					<a name="bientot"><h2>La saison commence bientôt!</h2></a>
+					<p>Nos nouveaux t-shirt nous attendent!</p>
+					<p><a href="tshirtv.html"><img class="img-responsive" src="img/t-shirt_v.jpg" alt=""></a><br>Cliquer sur l'image pour agrandir.</p>
+					
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Mardi, 28 février 2017</span>
+					
+					<hr>
+					
+					<a name="trophees"><h2>Nos nouveaux trophées!</h2></a>
+					<p>Nouvelles formule pour le trophée Jack Layton; votre nombre de vote équivaut à votre nombre de points amassés cette année.</p>
+					<p><a href="trophp.html"><img class="img-responsive" src="img/troph.jpg" alt=""></a><br>Cliquer sur l'image pour agrandir.</p>
+					
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Dimanche, 23 octobre 2016</span>
+					
+					<hr>
+					
+					<h2>Bilan de la saison 2016</h2>
+					<p>Bravo à tous les participants de la saison 2016 de la LTMSHA!</p>
+					<h5>Faits marquants cette année:</h5>
+					<ul><li>Deux femmes ont prit part à des matchs de la LTMSHA;</li>
+					<li>Le trophée de la recrue de l'année est gagné par une femme pour la 2ème fois;</li>
+					<li>La marque pour le plus d'As durant un match a été établit à 10 par Mathieu Provençal;</li>
+					<li>La marque pour le meilleur pourcentage de victoire durant le saison à été établie à 91.7% par Vincent Roy;</li>
+					<li>Renaud Avard est maintenant le seul joueur de la LTMSHA à avoir jouer au moins 20 matchs pour chacune de ses 8 saisons.</li></ul>
+					
+					<table>
+					<tr><td>Trophée LTMSHA</td>
+					<td><i>Vincent Roy</i></td><tr>
+					<tr><td>Trophée Président</td>
+					<td><i>Vincent Roy</i></td></tr>
+					<tr><td>Trophée Laframboise</td>
+					<td><i>Vincent Roy</i></td></tr>
+					<tr><td>Trophée Jack Layton</td>
+					<td><i>Mathieu Provençal</i></td></tr>
+					<tr><td>Trophée Provençal</td>
+					<td><i>Héloïse Cauchy-Ferland</i></td></tr>
+					<tr><td>Trophée Crystal</td>
+					<td><i>Mathieu Provençal</i></td></tr>
+					</table>
+					
+					
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Mercredi, 27 avril 2016</span>
+					
+					<hr>
+					
+					<h2>Résultat de la dernière saisons</h2>
+					<ol>
+						<li>Vincent Roy</li>
+						<li>Mathieu Provençal</li>
+						<li>Renaud Avard</li>
+						<li>David Dubé</li>
+						<li>Andréanne Rachiele</li>
+						<li>Héloïse Cauchy-Ferland</li>
+					</ol>
+					<span><i class="fa fa-calendar-o" aria-hidden="true"></i> Mercredi, 27 avril 2016</span>
+				</div>
+
+				<div class="right">
+					<h3>Dernières parties</h3>
+					<h5>19 octobre 2016 au Parc Jean-Duceppe</h5>
+					<ul><li>Mathieu Provençal gagne 6 à 1 contre Renaud Avard</li>
+					<li>Mathieu Provençal (2 As) gagne 6 à 3 contre Renaud Avard</li></ul>
+					<hr>
+					<h5>7 octobre 2016 au Parc Jean-Duceppe</h5>
+					<span>FINALE</span>
+					<ul><li>Vincent Roy gagne 6 à 1 contre Mathieu Provençal</li>
+					<li>Vincent Roy (2 As) gagne 6 à 3 contre Renaud Avard (1 As)</li></ul>
+					<p align="right"><a href="saisons.html">Suite ></a></p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+<div class="container">
+			<div class="footer-left">
+
+				<h3>LTMSHA</h3>
+
+
+				<p class="footer-links">
+					<a href="index.html">Accueil</a>
+					·
+					<a href="propos.html">À propos</a>
+					·
+					<a href="joueurs.html">Joueurs</a>
+					·
+					<a href="saisons.html">Saisons</a>
+					·
+					<a href="faits.html">Faits marquants</a>
+					<!--·
+					<a href="trophees.html">Trophées</a>-->
+					·
+					<a href="magasin.html">Magasin</a>
+				</p>
+
+
+				<p class="footer-name">Site conçu par Mathieu Provençal</p>
+				<p class="footer-name">Propulsé par GitHub et Jekyll</p> <!--GitHub, c'est pour l'hébergement et la gestion du futur site et Jekyll, c'est pour le fonctions de blog qui y seront intégrées pour la version officielle.-->
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/groups/253915534960187/?ref=br_rs"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<!--<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>-->
+					<a href="https://github.com/ltmsha/ltmsha.github.io"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contactez-nous</p>
+
+				<!--<form action="https://formspree.io/mth.provencal@gmail.com" method="post">-->
+				<form action="mailto:contact@ltmsha.com" method="post">
+
+					<input type="text" name="_replyto" placeholder="Votre adresse courriel" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit">Envoyer</button><button type="reset">Effacer</button>
+					
+
+				</form>
+<a name="Bas"></a>
+			</div>
+</div>
+		</footer>
+	</body>
+</html>

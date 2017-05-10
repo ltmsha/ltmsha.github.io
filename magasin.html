@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LTMSHA - Magasin</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="fr" content="Site officiel de la célèbre ligue de tennis LTMSHA">
+		<!--<meta name="author" content="Mathieu Provençal">-->
+
+		<!-- icon -->
+		<link rel="shortcut icon" href="favicon.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="css/styles_MP.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		
+		<!-- js -->
+		<script src="js/classie.js"></script>
+		<script src="js/sorttable.js"></script>
+		
+		<script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 50,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+            window.onload = init();
+        </script>
+    </head>
+    
+   
+	<body>
+		<header>
+			<div class="container">
+        
+           <!--<a href="">LTMSHA</a>-->
+            <a href="index.html"><img id="logo" src="assets/balle_logo1.png" onMouseOver="this.src='assets/balle_logo2.png'" onMouseOut="this.src='assets/balle_logo1.png'"/></a>
+        
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="propos.html">À propos</a>
+            <a href="joueurs.html">Joueurs</a>
+            <a href="saisons.html">Saisons</a>
+            <a href="faits.html">Faits marquants</a>
+            <!--<a href="trophees.html">Trophées</a>-->
+            <a href="magasin.html">Magasin</a>
+            <a href="#Bas"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+ 
+        </nav>
+        </div>
+</header>
+
+<div class="up-down">    
+    <div class="container">
+        <a href="#"><img src="assets/haut.png" /></a>
+        <a href="#Bas"><img src="assets/bas.png" /></a>
+    </div>
+</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="main-alt">
+					<h1>Magasin</h1>
+					<hr>
+					<h2>Chandail officiel - 25$</h2>
+					<table class="transp">
+					<tr>
+					<td width="300px" style="vertical-align: middle;">
+					<img class="img-responsive" src="img/t-shirt.png" alt=""></td>
+					<td>
+					<form action="mailto:magasin@ltmsha.com" method="post" name="c_officiel">
+
+					<input type="text" name="nom" placeholder="Votre nom" />
+					<input type="text" name="adresse_courriel" placeholder="Votre adresse courriel" />
+					Pour : <input type="radio" name="genre" value="homme" checked> Homme<input type="radio" name="genre" value="femme"> Femme<br>
+					<select name="grandeur">
+                        <option value="----------">< Sélectionner une grandeur ></option>
+                        <option value="t-petit">Très petit</option>
+                        <option value="petit">Petit</option>
+                        <option value="moyen">Moyen</option>
+                        <option value="grand">Grand</option>
+                        <option value="t-grand">Très grand</option>
+					</select>
+					<hr>
+					Choisir votre ou vos disponibilités :</p>
+					<p><input type="checkbox" name="bureaux" value="Bureaux"> Passer prendre la commande à nos bureaux
+					<input type="checkbox" name="livraison" value="Livraison"> Livraison à domicile</p>
+					<textarea name="commentaire" placeholder="Commentaire supplémentaire"></textarea>
+					<button type="reset">Effacer</button><button type="submit">Envoyer la commande</button>
+					
+
+				</form></td></tr></table>
+				<h3>Merci d'avoir acheté sur LTMSHA!</h3>
+
+					
+					
+					
+				</div>
+
+
+			</div>
+		</div>
+		<footer class="footer">
+<div class="container">
+			<div class="footer-left">
+
+				<h3>LTMSHA</h3>
+
+
+				<p class="footer-links">
+					<a href="index.html">Accueil</a>
+					·
+					<a href="propos.html">À propos</a>
+					·
+					<a href="joueurs.html">Joueurs</a>
+					·
+					<a href="saisons.html">Saisons</a>
+					·
+					<a href="faits.html">Faits marquants</a>
+					<!--·
+					<a href="trophees.html">Trophées</a>-->
+					·
+					<a href="magasin.html">Magasin</a>
+				</p>
+
+				<p class="footer-name">Site conçu par Mathieu Provençal</p>
+				<p class="footer-name">Propulsé par GitHub et Jekyll</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/groups/253915534960187/?ref=br_rs"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<!--<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>-->
+					<a href="https://github.com/ltmsha/ltmsha.github.io"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contactez-nous</p>
+
+				<!--<form action="https://formspree.io/mth.provencal@gmail.com" method="post">-->
+				<form action="mailto:contact@ltmsha.com" method="post">
+
+					<input type="text" name="_replyto" placeholder="Votre adresse courriel" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit">Envoyer</button><button type="reset">Effacer</button>
+					
+
+				</form>
+<a name="Bas"></a>
+			</div>
+</div>
+		</footer>
+	</body>
+</html>

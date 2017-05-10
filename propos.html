@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LTMSHA - À propos de la ligue</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="fr" content="Site officiel de la célèbre ligue de tennis LTMSHA">
+		<!--<meta name="author" content="Mathieu Provençal">-->
+
+		<!-- icon -->
+		<link rel="shortcut icon" href="favicon.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="css/styles_MP.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		
+		<!-- js -->
+		<script src="js/classie.js"></script>
+		<script src="js/sorttable.js"></script>
+		
+		<script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 50,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+            window.onload = init();
+        </script>
+    </head>
+    
+    
+	<body>
+		<header>
+			<div class="container">
+        
+            <!--<a href="">LTMSHA</a>-->
+            <a href="index.html"><img id="logo" src="assets/balle_logo1.png" onMouseOver="this.src='assets/balle_logo2.png'" onMouseOut="this.src='assets/balle_logo1.png'"/></a>
+        
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="propos.html">À propos</a>
+            <a href="joueurs.html">Joueurs</a>
+            <a href="saisons.html">Saisons</a>
+            <a href="faits.html">Faits marquants</a>
+            <!--<a href="trophees.html">Trophées</a>-->
+            <a href="magasin.html">Magasin</a>
+            <a href="#Bas"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+ 
+        </nav>
+        </div>
+</header>
+
+<div class="up-down">    
+    <div class="container">
+        <a href="#"><img src="assets/haut.png" /></a>
+        <a href="#Bas"><img src="assets/bas.png" /></a>
+    </div>
+</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="main-alt">
+					<h1>À propos de la ligue</h1>
+					
+					<hr>
+
+					<table class="transp"><tr><td>
+					
+					<img class="img-responsive"  width="500px" src="img/ter1.jpg" style="float:left; margin: 0 20px 20px 0;">
+					<h3>La Ligue de Tennis Métropolitaine de Saint-Hyacinthe Amateur</h3><p>est une ligue de tennis pour les joueurs de tennis amateur de la grande région métropolitaine de Saint-Hyacinthe.</p>
+					<p>Fondée officiellement en 2001 par Renaud Avard et Mathieu Provençal au terrain de tennis du centre culturel de Saint-Hyacinthe, la ligue a fait beaucoup de chemin depuis.</p>
+										
+					<p>Pour 2017, la LTMSHA est fière d'annoncer qu'elle sera représentée par autant d'hommes que de femmes avec l'ajout de 4 membres au conseil d'administration. Il ne manque que des femmes qui ont l'amour du tennis au maskoutain à cœur.</p>
+					
+					<p>C'est le conseil d'administration qui s'assure du bon fonctionnement de la ligue en votant les règlements utilisés sur le terrain et à l'extérieur du terrain, créant de nouveaux trophées et établissant la stratégie publicitaire de la ligue.</p></td></tr></table>
+					
+					<table class="transp"><tr><td><img class="img-responsive"  width="500px" src="img/MBalle.jpg" style="float:right; margin: 0 0 20px 20px;"><p><h3>Les valeurs de la LTMSHA</h3>
+					<ul><li>Entretenir un mode de vie sain par la pratique du tennis comme activité physique;</li>
+					<li>Être un regroupement positif dans sa communauté;</li>
+					<li>Promouvoir le tennis auprès de la population et des instances gouvernementales.</li></ul></p>
+					
+					<p>En bref, la LTMSHA, c'est plus de 14 joueurs qui y ont joué au moins un match, dont 3 femmes, au fil des années.</p></td></tr></table>
+					
+					
+					<h3 align="right"><a href="joueurs.html">En savoir plus sur les membres et les joueurs ></a></h3>
+					<hr>
+					<h2>On peut nous voir...</h2>
+					<table class="transp">
+					<tr><td>
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1PMMHk2WOQD-WvY45udyt1UMG4Bg" width="100%" height="480"></iframe>
+					<td>
+					<h4>Liste des courts</h4>
+					<ul>
+					<li><h5>Parc Jean-Duceppe (Rosemont)</h5>
+					<p>Avenue du Mont-Royal Est / André Laurendeau, Rosemont-La Petite Patrie, QC H1Y 3M8<br><a href="http://www.accesculture.com">accesculture.com</a></p></li>
+					<li><h5>Parc Jean-Louis (Longueuil)</h5>
+					<p>Rue Jean-Louis, Longueuil, QC<br><a href="https://www.longueuil.quebec/fr">longueuil.quebec</a></p></li>
+					<li><h5>Parc Jean-de-Lalande (Longueuil)</h5>
+					<p>1681 Rue Bourassa, Longueuil, QC J4J 3A5<br><a href="https://www.longueuil.quebec/fr">longueuil.quebec</a></p></li>
+					</ul></td></tr></table>
+					
+					</div>
+					
+					</div>
+				</div>
+
+
+			
+		
+		<footer class="footer">
+<div class="container">
+			<div class="footer-left">
+
+				<h3>LTMSHA</h3>
+
+
+				<p class="footer-links">
+					<a href="index.html">Accueil</a>
+					·
+					<a href="propos.html">À propos</a>
+					·
+					<a href="joueurs.html">Joueurs</a>
+					·
+					<a href="saisons.html">Saisons</a>
+					·
+					<a href="faits.html">Faits marquants</a>
+					<!--·
+					<a href="trophees.html">Trophées</a>-->
+					·
+					<a href="magasin.html">Magasin</a>
+				</p>
+
+
+				<p class="footer-name">Site conçu par Mathieu Provençal</p>
+				<p class="footer-name">Propulsé par GitHub et Jekyll</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/groups/253915534960187/?ref=br_rs"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<!--<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>-->
+					<a href="https://github.com/ltmsha/ltmsha.github.io"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contactez-nous</p>
+
+				<!--<form action="https://formspree.io/mth.provencal@gmail.com" method="post">-->
+				<form action="mailto:contact@ltmsha.com" method="post">
+
+					<input type="text" name="_replyto" placeholder="Votre adresse courriel" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit">Envoyer</button><button type="reset">Effacer</button>
+					
+
+				</form>
+<a name="Bas"></a>
+			</div>
+</div>
+		</footer>
+	</body>
+</html>

@@ -1,14 +1,78 @@
----
-layout: default-alt
----
-<!-- css -->
-<link rel="stylesheet" href="/css/section-alt.css" />
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LTMSHA - Faits marquants</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="fr" content="Site officiel de la célèbre ligue de tennis LTMSHA">
+		<!--<meta name="author" content="Mathieu Provençal">-->
 
-<div id="main">
-<div id="content">
+		<!-- icon -->
+		<link rel="shortcut icon" href="favicon.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="css/styles_MP.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		
+		<!-- js -->
+		<script src="js/classie.js"></script>
+		<script src="js/sorttable.js"></script>
+		
+		<script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 50,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+            window.onload = init();
+        </script>
+    </head>
+    
+   
+	<body>
+		<header>
+			<div class="container">
+        
+           <!--<a href="">LTMSHA</a>-->
+            <a href="index.html"><img id="logo" src="assets/balle_logo1.png" onMouseOver="this.src='assets/balle_logo2.png'" onMouseOut="this.src='assets/balle_logo1.png'"/></a>
+        
 
-<div class="container">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="propos.html">À propos</a>
+            <a href="joueurs.html">Joueurs</a>
+            <a href="saisons.html">Saisons</a>
+            <a href="faits.html">Faits marquants</a>
+            <!--<a href="trophees.html">Trophées</a>-->
+            <a href="magasin.html">Magasin</a>
+            <a href="#Bas"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+ 
+        </nav>
+        </div>
+</header>
 
+<div class="up-down">    
+    <div class="container">
+        <a href="#"><img src="assets/haut.png" /></a>
+        <a href="#Bas"><img src="assets/bas.png" /></a>
+    </div>
+</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="main">
+					<h1>Faits marquants</h1>
+					<hr>
 <div class="timeline">
 	
 	
@@ -148,11 +212,211 @@ layout: default-alt
 		</div>
 		<div class="description">
 			<p>C'est par une chaude journée d'été à ne rien faire que Renaud Avard et Mathieu Provençal ont empoigné de vieilles raquettes de tennis en bois afin d'écrire l'histoire. La ligue fut ainsi créée.</p>
+			
+			</div>
 		</div>
 	</div>
 	
-	</div>
 </div>
-</div>
-</div>
+ 
+ 				<div class="right">
+					<h3>Reccords</h3>
+					
+					<h5>Plus de Championnats de la LTMSHA</h5>
+					<p>Vincent Roy, 5 (2002, 2003, 2012, 2013 & 2016)</p>
+					
+					<h5>Plus de Championnats consécutif de la LTMSHA</h5>
+					<p>Vincent Roy, 4 (2002, 2003, 2012 & 2013)</p>
+					
+					<h5>Plus jeune Champion de la LTMSHA</h5>
+					<p>Mathieu Provençal, âgé de 13 ans et 7 mois en 2001</p>
+					
+					<h5>Plus vieux Champion de la LTMSHA</h5>
+					<p>Vincent Roy âgé de 28 ans et 7 mois en 2016</p>
+					
+					<h5>Plus jeune meilleure recrue de la LTMSHA</h5>
+					<p>Mathieu Provençal, âgé de 13 ans et 7 mois en 2001</p>
+					
+					<h5>Plus vieux meilleure Recrue de la LTMSHA</h5>
+					<p>Oskar Campos, âgé de 24 ans en 2012</p>
+					
+					<h5>Plus de victoires en carrière</h5>
+					<p>Vincent Roy 113 victoires</p>
+					
+					<h5>Plus de points en carrière</h5>
+					<p>Vincent Roy, 235 points</p>
+					
+					<h5>Plus de défaites en carrière</h5>
+					<p>Mathieu Provençal, 135 défaites</p>
+					
+					<h5>Plus de matchs en carrière</h5>
+					<p>Renaud Avard, 244 matchs</p>
+					
+					<h5>Plus de matchs nul en carrière</h5>
+					<p>Renaud Avard & Mathieu Provençal, 11 nuls</p>
+					
+					<h5>Plus de longues défaites en carrière</h5>
+					<p>Mathieu Provençal 12 longues défaites</p>
+					
+					<h5>Plus de victoires consécutives</h5>
+					<p>10 victoires, par Vincent Roy en 2016</p>
+					
+					<h5>Plus de défaites consécutives</h5>
+					<p>Mathieu Provençal, 8 défaites en 2012</p>
+					
+					<h5>Plus de saisons dans la LTMSHA</h5>
+					<p>Renaud Avard & Mathieu Provençal, 8 (2001 à 2003 & 2012 à 2016)</p>
+					
+					<h5>Plus de victoires en une saison</h5>
+					<p>Vincent Roy, 51 en 2002</p>
+					
+					<h5>Plus de défaites en une saison</h5>
+					<p>Mathieu Provençal, 56 en 2002</p>
+					
+					<h5>Plus de points en une saison
+					<p>Vincent Roy, 104 points en 2002</p>
+					
+					<h5>Plus de nuls en une saison</h5>
+					<p>Renaud Avard & Mathieu Provençal, 6 en 2001</p>
+					
+					<h5>Plus de matchs en une saison</h5>
+					<p>Mathieu Provençal, 87 matchs en 2002</p>
+					
+					<h5>Plus de longues défaites en une saison</h5>
+					<p>Mathieu Provençal, 4 longues défaites en 2013</p>
+					
+					<h5>Plus de Prix Jack Layton</h5>
+					<p>Mathieu Provençal, 3 (2013, 2014 & 2016)</p>
+					
+					<h5>Plus de joueurs durant une saison de la LTMSHA</h5>
+					<p>9, en 2003 (Vincent Roy, David Dubé, Renaud Avard, Mathieu Provençal, Maxime Latulippe, Xavier Gonin, Éric Silversides, Hugues Rivest & Jérôme Rivest)</p>
+					
+					<h5>Moins de joueurs durant une saison de la LTMSHA</h5>
+					<p>2, en 2001 (Renaud Avard & Mathieu Provençal)</p>
+					
+					<h5>Premier duo de frères à jouer dans la LTMSHA</h5>
+					<p>Hugues Rivest & Jérôme Rivest en 2003</p>
+					
+					<h5>Plus de Trophée Président</h5>
+					<p>Renaud Avard, 2 (2013 & 2015)</p>
+					
+					<h5>Gagnant du Trophée Président avec le plus de points</h5>
+					<p>Renaud Avard, 41 points en 2013</p>
+					
+					<h5>Plus de Trophée Laframboise</h5>
+					<p>Vincent Roy, 4 (2013, 2014, 2015 & 2016)</p>
+					
+					<h5>Gagnant du Trophée Laframboise avec le meilleur pourcentage de victoire</h5>
+					<p>Vincent Roy, avec 91,7% de victoire en 2016</p>
+					
+					<h5>Plus de Trophée Crystal</h5>
+					<p>Mathieu Provençal, 2 (2015 & 2016)</p>
+					
+					<h5>Gagnant du Trophée Crystal avec le plus d'As</h5>
+					<p>Mathieu Provençal, 18 As en 2016</p>
+					
+					<h5>Plus d'As lors d'un match</h5>
+					<p>10 As, par Mathieu Provençal le 7 septembre 2016 contre Héloïse Cauchy-Ferland</p>
+					
+					<h5>Gagnant du Trophée Provençal avec le plus de points</h5>
+					<p>Vincent Roy, avec 104 points en 2002</p>
+					
+					<h5>Gagnant du Trophée Provençal avec le moins de points</h5>
+					<p>Maryse Tremblay, avec 0 point en 2013 & Héloïse Cauchy-Ferland en 2016</p>
+					
+					<h5>Début de saison le plus tôt</h5>
+					<p>Le 3 avril 2012, pour la saison 2012</p>
+					
+					<h5>Début de saison le plus tard</h5>
+					<p>27 juin 2001, pour la saison 2001</p>
+					
+					<h5>Fin de saison le plus tôt</h5>
+					<p>28 août 2001, pour la saison 2001</p>
+					
+					<h5>Fin de saison le plus tard</h5>
+					<p>20 octobre 2013, pour la saison 2013</p>
+					
+					<hr>
+					
+					<h3>Les Premières</h3>
+					<span>Mis à jour le 27 avril 2016</span>
+					
+					<h5>Première femme à jouer un match dans la LTMSHA</h5>
+					<p>Maryse Tremblay, le 1 juin 2013</p>
+					
+					<h5>Premier As dans le cadre du trophée Crystal</h5>
+					<p>Vincent Roy contre Renaud Avard le 1 mai 2015</p>
+					
+					<h5>Premier Joueur à atteindre le plateau des 200 points</h5>
+					<p>Renaud Avard, le 6 mai 2015</p>
+					
+					<h5>Premier joueur à atteindre le plateau des 200 matchs</h5>
+					<p>Renaud Avard, le 1 mai 2015</p>
+					
+					<h5>Premier joueur à atteindre le plateau des 100 victoires</h5>
+					<p>Vincent Roy, le 24 juillet 2015</p>
+					
+					<h5>La première page Facebook de la LTMSHA</h5>
+					<p>Créé le 27 avril 2016</p>
+					
+				</div>
 
+
+			</div>
+		</div>
+		<footer class="footer">
+<div class="container">
+			<div class="footer-left">
+
+				<h3>LTMSHA</h3>
+
+
+				<p class="footer-links">
+					<a href="index.html">Accueil</a>
+					·
+					<a href="propos.html">À propos</a>
+					·
+					<a href="joueurs.html">Joueurs</a>
+					·
+					<a href="saisons.html">Saisons</a>
+					·
+					<a href="faits.html">Faits marquants</a>
+					<!--·
+					<a href="trophees.html">Trophées</a>-->
+					·
+					<a href="magasin.html">Magasin</a>
+				</p>
+
+				<p class="footer-name">Site conçu par Mathieu Provençal</p>
+				<p class="footer-name">Propulsé par GitHub et Jekyll</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/groups/253915534960187/?ref=br_rs"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<!--<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>-->
+					<a href="https://github.com/ltmsha/ltmsha.github.io"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contactez-nous</p>
+
+				<!--<form action="https://formspree.io/mth.provencal@gmail.com" method="post">-->
+				<form action="mailto:contact@ltmsha.com" method="post">
+
+					<input type="text" name="_replyto" placeholder="Votre adresse courriel" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit">Envoyer</button><button type="reset">Effacer</button>
+					
+
+				</form>
+<a name="Bas"></a>
+			</div>
+</div>
+		</footer>
+	</body>
+</html>
