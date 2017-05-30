@@ -1,7 +1,4 @@
 ---
-published: true
----
----
 title: test prose
 date: 2017-05-29
 ---
