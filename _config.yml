@@ -37,13 +37,20 @@ collections:
 - classement
 - blog
 
+
 prose:
   metadata:
-  _posts:
-    - name: "title"
-      field:
-        element: "text"
-        label: "title"
+    _posts:
+      - name: "lieu"
+        field:
+          label: "lieu"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "title"
+        field:
+          label: "title"
+          element: "text"
+          value: "An Awesome Headline!"
   ignore:
     - index.md
     - _config.yml
