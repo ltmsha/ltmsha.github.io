@@ -44,13 +44,11 @@ prose:
       - name: "lieu"
         field:
           label: "lieu"
-          element: "text"
-          value: "An Awesome Headline!"
+          element: "textaera"
       - name: "title"
         field:
           label: "title"
           element: "text"
-          value: "An Awesome Headline!"
   ignore:
     - index.md
     - _config.yml
