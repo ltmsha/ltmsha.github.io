@@ -33,7 +33,7 @@ layout: default
 {{ post.content }}
   {% endif %}
 {% endfor %}
-					<h5>Sommaire des matchs</h5>
+					<p><x-large>Sommaire des matchs</x-large></p>
 
 {% for post in site.partie reversed %}
   {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -52,7 +52,7 @@ layout: default
 {{ post.content }}
   {% endif %}
 {% endfor %}
-					<h5>Sommaire des matchs</h5>
+					<p><x-large>Sommaire des matchs</x-large></p>
 
 {% for post in site.partie reversed %}
   {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
