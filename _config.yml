@@ -49,6 +49,26 @@ prose:
         field:
           label: "title"
           element: "text"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Engineering"
+              value: engineering
+            - name: "Physics"
+              value: physics
+            - name: "Psychology"
+              value: psychology
+            - name: "Interesting"
+              value: interesting
+            - name: "Web-Development"
+              value: webdevelopment
+              alterable: true
   ignore:
     - index.md
     - _config.yml
