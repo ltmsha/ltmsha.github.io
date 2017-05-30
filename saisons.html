@@ -16,7 +16,7 @@ layout: default
 {{ post.content }}
   {% endif %}
 {% endfor %}
-					<h5>Sommaire des matchs</h5>
+					<p><large>Sommaire des matchs</large></p>
 {% for post in site.partie reversed %}
   {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
   {% if year == "2017" %}
