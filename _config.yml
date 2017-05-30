@@ -38,6 +38,12 @@ collections:
 - blog
 
 prose:
+  metadata:
+  _posts:
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
   ignore:
     - index.md
     - _config.yml
