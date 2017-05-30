@@ -37,3 +37,25 @@ collections:
 - classement
 - blog
 
+prose:
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /fonts
+    - /.sass-cache
+    - 404.html
+    - /css
+    - /_data
+    - /js
+    - /_site
+    - /.git
+    - about.md
+    - favicon.png
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - saisons.html
+    - propos.html
+
