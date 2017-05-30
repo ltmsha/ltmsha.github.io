@@ -25,6 +25,44 @@ layout: default
 {{ post.content }}
   {% endif %}
 {% endfor %}
+					
+					<hr>
+					<h2>Saison 2016</h2>
+{% for post in site.classement %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if year == "2016" %}
+{{ post.content }}
+  {% endif %}
+
+{% endfor %}
+
+{% for post in site.partie reversed %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if year == "2016" %}
+<h5>{{ post.date | date: "%e %B %Y" }} au {{ post.lieu }}</h5>
+{{ post.content }}
+  {% endif %}
+{% endfor %}
+					
+					<hr>
+					
+					<h2>Saison 2015</h2>
+{% for post in site.classement %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if year == "2015" %}
+{{ post.content }}
+  {% endif %}
+
+{% endfor %}
+
+{% for post in site.partie reversed %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if year == "2015" %}
+<h5>{{ post.date | date: "%e %B %Y" }} au {{ post.lieu }}</h5>
+{{ post.content }}
+  {% endif %}
+{% endfor %}
+					
 				</div>
 
 
