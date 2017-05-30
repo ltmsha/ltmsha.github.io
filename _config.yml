@@ -59,12 +59,5 @@ prose:
     - saisons.html
     - propos.html
     - .gitignore
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          label: "Choisi le titre"
-      - name: "date"
-        field:
-          label: "AAAA-MM-JJ"
+
 
