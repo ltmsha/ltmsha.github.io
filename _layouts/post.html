@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% include date.html date=page.date %}
+
+<div class="content">
+			<div class="container">
+				<div class="main">
+				
+									<h1>{{ post.title }}</h1>
+					
+<hr>
+
+    <p><span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{ post.date | date: "%e %B %Y" }}</span></p>
+    <p>{{ content }}</p>
+
+		
+</div>
+			</div>
+		</div>

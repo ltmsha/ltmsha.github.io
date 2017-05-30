@@ -1,0 +1,11 @@
+
+		<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+		<!--{{ range .Params.tags }}
+		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+		{{ end }}-->
+			<p>{{ .Summary }}</p>
+			{{ if .Truncated }}
+			<p><a href="{{ .Permalink }}">Suite...</a></p>
+			{{ end }}
+		<span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time></span>
+			<hr>

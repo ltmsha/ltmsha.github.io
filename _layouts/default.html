@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LTMSHA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="fr" content="Site officiel de la célèbre ligue de tennis LTMSHA">
+		<!--<meta name="author" content="Mathieu Provençal">-->
+
+		<!-- icon -->
+		<link rel="shortcut icon" href="/assets/favicon.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="/css/font-awesome.css" />
+		
+		
+		<!--file:///home/mathieu/GIT/LTMSHA/themes/LTMSHA/static/css/styles_MP.css
+		file:///home/mathieu/GIT/LTMSHA/themes/LTMSHA/layouts/index.html-->
+		<!-- js -->
+		<script src="/js/sorttable.js"></script>
+		<script src="/js/classie.js"></script>
+		
+		<script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 50,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+            window.onload = init();
+        </script>
+    </head>
+  
+   <body>
+
+   {% include header.html %}
+    {% include  up-down.html  %}
+    
+		{{ content }}
+		{% include footer.html %}
+
+</html>
